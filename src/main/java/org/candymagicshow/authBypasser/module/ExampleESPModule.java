@@ -1,11 +1,11 @@
-package org.example.module;
+package org.candymagicshow.authBypasser.module;
 
 import com.zenith.module.api.Module;
 import com.zenith.network.codec.PacketHandler;
 import com.zenith.network.codec.PacketHandlerCodec;
 import com.zenith.network.codec.PacketHandlerStateCodec;
 import com.zenith.network.server.ServerSession;
-import org.example.ExamplePlugin;
+import org.candymagicshow.authBypasser.ExamplePlugin;
 import org.geysermc.mcprotocollib.protocol.data.ProtocolState;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.metadata.EntityMetadata;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.metadata.MetadataTypes;

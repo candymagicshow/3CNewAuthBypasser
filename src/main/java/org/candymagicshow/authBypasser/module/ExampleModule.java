@@ -1,11 +1,11 @@
-package org.example.module;
+package org.candymagicshow.authBypasser.module;
 
 import com.github.rfresh2.EventConsumer;
 import com.zenith.event.client.ClientBotTick;
 import com.zenith.module.api.Module;
 import com.zenith.util.timer.Timer;
 import com.zenith.util.timer.Timers;
-import org.example.ExamplePlugin;
+import org.candymagicshow.authBypasser.ExamplePlugin;
 
 import java.util.List;
 

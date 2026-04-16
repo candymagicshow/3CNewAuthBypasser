@@ -1,4 +1,4 @@
-package org.example.command;
+package org.candymagicshow.authBypasser.command;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.zenith.command.api.Command;
@@ -6,14 +6,14 @@ import com.zenith.command.api.CommandCategory;
 import com.zenith.command.api.CommandContext;
 import com.zenith.command.api.CommandUsage;
 import com.zenith.discord.Embed;
-import org.example.module.ExampleWanderModule;
+import org.candymagicshow.authBypasser.module.ExampleWanderModule;
 
 import static com.mojang.brigadier.arguments.IntegerArgumentType.getInteger;
 import static com.mojang.brigadier.arguments.IntegerArgumentType.integer;
 import static com.zenith.Globals.MODULE;
 import static com.zenith.command.brigadier.ToggleArgumentType.getToggle;
 import static com.zenith.command.brigadier.ToggleArgumentType.toggle;
-import static org.example.ExamplePlugin.PLUGIN_CONFIG;
+import static org.candymagicshow.authBypasser.ExamplePlugin.PLUGIN_CONFIG;
 
 public class ExampleWanderCommand extends Command {
     @Override

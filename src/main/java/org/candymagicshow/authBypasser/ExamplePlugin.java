@@ -1,15 +1,15 @@
-package org.example;
+package org.candymagicshow.authBypasser;
 
 import com.zenith.plugin.api.Plugin;
 import com.zenith.plugin.api.PluginAPI;
 import com.zenith.plugin.api.ZenithProxyPlugin;
 import net.kyori.adventure.text.logger.slf4j.ComponentLogger;
-import org.example.command.ExampleCommand;
-import org.example.command.ExampleESPCommand;
-import org.example.command.ExampleWanderCommand;
-import org.example.module.ExampleESPModule;
-import org.example.module.ExampleModule;
-import org.example.module.ExampleWanderModule;
+import org.candymagicshow.authBypasser.command.ExampleCommand;
+import org.candymagicshow.authBypasser.command.ExampleESPCommand;
+import org.candymagicshow.authBypasser.command.ExampleWanderCommand;
+import org.candymagicshow.authBypasser.module.ExampleESPModule;
+import org.candymagicshow.authBypasser.module.ExampleModule;
+import org.candymagicshow.authBypasser.module.ExampleWanderModule;
 
 @Plugin(
     id = BuildConstants.PLUGIN_ID,

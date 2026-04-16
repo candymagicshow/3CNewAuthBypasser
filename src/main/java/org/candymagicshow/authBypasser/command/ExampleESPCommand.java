@@ -1,4 +1,4 @@
-package org.example.command;
+package org.candymagicshow.authBypasser.command;
 
 import com.google.common.collect.Lists;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
@@ -7,8 +7,8 @@ import com.zenith.command.api.Command;
 import com.zenith.command.api.CommandCategory;
 import com.zenith.command.api.CommandContext;
 import com.zenith.command.api.CommandUsage;
-import org.example.ExamplePlugin;
-import org.example.module.ExampleESPModule;
+import org.candymagicshow.authBypasser.ExamplePlugin;
+import org.candymagicshow.authBypasser.module.ExampleESPModule;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.metadata.EntityMetadata;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.metadata.MetadataTypes;
 import org.geysermc.mcprotocollib.protocol.data.game.entity.metadata.type.ByteEntityMetadata;

@@ -1,4 +1,4 @@
-package org.example;
+package org.candymagicshow.authBypasser;
 
 /**
  * Example configuration POJO.
