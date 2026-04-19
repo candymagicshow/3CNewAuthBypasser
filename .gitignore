@@ -5,6 +5,7 @@
 /log/
 /build/
 /.gradle/
+/.gradle-user-home/
 *.class
 *.ipr
 /out/
